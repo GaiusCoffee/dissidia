@@ -2,7 +2,7 @@
 title: Dissidia Tabletop RPG
 email: gaius.coffee@gmail.com
 # description: The Dissidia Tabletop RPG is a Pen and Paper roleplaying game that is inspired by Square Enix’s Final Fantasy series as well as Returner Games’ FFRPG. Dissidia is designed from the groud up to be minimal and modular, as well as a Minmaxer’s Delight.
-baseurl: "/dissidia"
+baseurl: "/dissidia/"
 url: "http://gaius.coffee"
 twitter_username: gaiuscoffee
 github_username:  GaiusCoffee
