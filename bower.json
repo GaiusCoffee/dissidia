@@ -1,0 +1,42 @@
+{
+  "name": "dissidia",
+  "version": "0.0.0",
+  "homepage": "http://gaius.coffee/dissidia",
+  "authors": [
+    "GaiusCoffee <gaius.coffee@gmail.com>"
+  ],
+  "description": "Dissidia Tabletop RPG",
+  "main": "index.html",
+  "keywords": [
+    "Final Fantasy",
+    "Tabletop",
+    "RPG",
+    "Dissidia"
+  ],
+  "license": "None",
+  "private": true,
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "latest"
+  },
+  "install": {
+    "base":  "libs",
+    "path" : {
+      "js": "{name}/js",
+      "css": "{name}/css",
+      "eot": "{name}/fonts",
+      "svg": "{name}/fonts",
+      "ttf": "{name}/fonts",
+      "woff": "{name}/fonts",
+      "woff2": "{name}/fonts"
+    },
+    "sources": {
+      "jquery" : "bower_components/jquery/dist/jquery.min.js",
+      "bootstrap": [
+        "bower_components/bootstrap/dist/css/bootstrap.min.css",
+        "bower_components/bootstrap/dist/fonts/*",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js"   
+      ]
+    }
+  }
+}
